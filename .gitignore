@@ -1,0 +1,37 @@
+# Docker project generated files to ignore
+#  if you want to ignore files created by your editor/tools,
+#  please consider a global .gitignore https://help.github.com/articles/ignoring-files
+
+# Folder/OS
+.DS_Store
+
+# Project Specific
+.env
+mysql-data/
+
+
+*.exe
+*.exe~
+*.orig
+*.test
+.*.swp
+# a .bashrc may be added to customize the build environment
+.bashrc
+.editorconfig
+
+autogen/
+bundles/
+cmd/dockerd/dockerd
+cmd/docker/docker
+
+docs/AWS_S3_BUCKET
+docs/GITCOMMIT
+docs/GIT_BRANCH
+docs/VERSION
+docs/_build
+docs/_static
+docs/_templates
+docs/changed-files
+
+vendor/pkg/
+
