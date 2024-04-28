@@ -1,0 +1,55 @@
+version: "3.9"
+
+volumes:
+  mariadb:
+    driver: local
+
+networks:
+    db:
+        driver: bridge
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: oz-nginx-cm
+    restart: always
+      #container_name: nginx-container
+    ports:
+       - 8010:80
+    volumes:
+      - ./cm/:/var/www/html/
+  db:
+    image: mariadb
+    container_name: oz-mariadb
+    volumes: 
+      -    ./mysql-data:/var/lib/mysql    
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    restart: always
+    ports:
+      - "6033:3306"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: oz-phpmyadmin
+    depends_on:
+     - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    restart: always
+    ports:
+      - "8012:80"
+  php:
+    build: ./cm/
+    container_name: oz-cm-php
+    expose:
+      - 9000
+    volumes:
+      - ./php_code/:/var/www/html/
+    depends_on:
+      - db
+
+
