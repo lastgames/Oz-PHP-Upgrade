@@ -48,7 +48,7 @@ services:
     expose:
       - 9000
     volumes:
-      - ./php_code/:/var/www/html/
+      - ./cm/:/var/www/html/
     depends_on:
       - db
 
