@@ -128,7 +128,7 @@ function limitText2(limitField, limitCount, limitNum) {
         			<div class="inner"><span class="corners-top"><span></span></span>
         
         			<ul class="linklist navlinks">
-        				<li class="icon-home"><a href='/index.php'>LAST Games Home</a> &bull; <a href="/forum/index.php" accesskey="h">Board Index</a> <strong>&#8249;</strong> <a href="/character.php" accesskey="h">Character Manager</a> <strong>&#8249;</strong> <a style="color: darkgreen" href="/cm_1_5/character_1_5.php">(*New*) Character Manager</a></li>
+        				<li class="icon-home"><a href='/index.php'>LAST Games Home</a> &bull; <a href="/forum/index.php" accesskey="h">Board Index</a> <strong>&#8249;</strong> <a href="/character.php" accesskey="h">Character Manager</a></li>
          
 
         			</ul>

@@ -1,0 +1,377 @@
+a:link {color: #514031; text-decoration: none;}
+a:visited {color: #514031; text-decoration: none;}
+a:hover {color: #816c59;}
+a:active {}
+
+html { 
+  background: #000000 url('/images/last/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+height: 100%;
+overflow: auto;
+}
+
+body {
+font: 14px Arial, Helvetica, sans-serif;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+#form_text
+	{
+	border: solid 1px #745c47;
+	width: 250px;
+	color: #745c47; 
+	padding: 5px;
+	}
+
+#form_area
+	{
+	border: solid 1px #745c47;
+	width: 500px; 
+	height: 200px;
+	color: #745c47;
+	font-family: Arial;
+	padding: 5px;
+	}
+
+#form_submit
+	{
+	background: url('/images/last/icon-email.gif') no-repeat;
+	border: none;
+	padding: 2px 8px;
+	width: 100px; 
+	height: 63px;
+	cursor: pointer;
+	}
+
+#form_select
+	{
+	border: solid 1px #745c47;
+	width: 250px;
+	color: #745c47; 
+	padding: 5px;
+	}
+
+.container {
+margin: 0px auto;
+position: relative;
+width: 800px;
+}
+
+.content {
+background: url('/images/last/bg-transparent.png') repeat-y left top;
+border: solid 1px #745c47;
+clear: both;
+float: left;
+min-height: 600px;
+position: relative;
+width: 800px;
+padding-bottom: 100px;
+}
+
+.header {
+width: 800px;
+height: 150px;
+position: relative;
+}
+
+.head-space {
+     float: left;
+     height: 130px;
+     position: relative;
+     width: 300px;
+}
+
+.facebook {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 175px;
+position: relative;
+width: 50px;
+border: solid 0px #fff;
+}
+
+.calendar {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.login {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.register {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.logo {
+width: 608px;
+height: 172px;
+position: absolute;
+left: -150px;
+top: 10px;
+z-index: 110;
+}
+
+.corner {
+background: url('/images/last/corner.gif') no-repeat left top;
+width: 916px;
+height: 411px;
+position: absolute;
+left: -58px;
+top: 100px;
+z-index: 100;
+}
+
+.rotator {
+clear: both;
+float: left;
+margin-top: 20px;
+height: 300px;
+position: relative;
+width: 800px;
+}
+
+.rotator-screen {
+background: url('/images/last/rotate-screen.png') no-repeat left top;
+width: 790px;
+height: 290px;
+position: absolute;
+right: 0px;
+top: 0px;
+z-index: 90;
+border-right: solid 0px #089b01;
+border-top: solid 0px #089b01;
+border: solid 5px #000000;
+border-left: solid 0px #089b01;
+}
+
+.menu {
+margin-top: 60px;
+clear: both;
+float: left;
+position: absolute;
+width: 150px;
+z-index: 110;
+}
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.menu li {
+margin: 0;
+padding: 0;
+}
+
+.menu li a {
+background: transparent;
+color: #e0e0e0;
+border-bottom: solid 1px #e0e0e0;
+font: bold 20px "Times New Roman", Times, serif;
+text-shadow: 2px 2px #000000;
+text-decoration: none;
+padding-top: 10px;
+width: 150px;
+height: 35px;
+display: block;
+}
+
+.menu li a:hover {
+background: url('/images/menu.png') no-repeat left bottom;
+color: #FFFFFF;
+border-bottom: solid 1px #FFFFFF;
+text-decoration: none;
+padding-top: 10px;
+width: 150px;
+height: 35px;
+display: block;
+}
+
+.content-index {
+float: left;
+top: 50px;
+left: 150px;
+position: relative;
+width: 625px;
+border: solid 0px #ffffff;
+}
+
+.content-index-text {
+clear: both;
+float: left;
+padding: 20px 7px 0px 13px;
+position: relative;
+width: 600px;
+border: solid 0px #089b01;
+}
+
+.welcome {
+clear: both;
+float: left;
+padding: 0px 5px 0px 0px;
+margin-bottom: 20px;
+position: relative;
+width: 600px;
+border: solid 0px #089b01;
+}
+
+.welcome-title {
+background: url('/images/last/header-welcome.gif') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 0px 0px 10px 0px;
+position: relative;
+width: 600px;
+}
+
+.news {
+clear: both;
+float: left;
+padding: 0px 5px 0px 0px;
+position: relative;
+width: 550px;
+z-index: 20;
+}
+
+.news-title {
+background: url('/images/last/header-news.gif') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 10px 10px 10px 10px;
+position: relative;
+width: 550px;
+}
+
+.story-title {
+background: url('/images/last/header-story.gif') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 10px 10px 10px 10px;
+position: relative;
+width: 550px;
+}
+
+.news-item {
+clear: both;
+float: left;
+margin: 0px 0px 10px 0px;
+position: relative;
+width: 550px;
+}
+
+.news-item-body {
+	clear: both;
+	float: left;
+	padding: 0px 5px 0px 0px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-content {
+background: #e0e0e0 url('/images/last/bg-paper.jpg');
+clear: both;
+float: left;
+padding: 5px 15px 0px 15px;
+position: relative;
+width: 550px;
+border: solid 1px #745c47;
+white-space: pre-line;
+}
+
+.news-item-link {
+	clear: both;
+	float: left;
+	padding: 2px 0px 10px 0px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-subtitle {
+	clear: both;
+	float: left;
+	font-size: 10px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-title {
+	clear: both;
+	color: #745c47;
+	float: left;
+	font-size: 18px;
+	position: relative;
+	width: 550px;
+}
+
+.info {
+float: right;
+right: 30px;
+margin-top: 232px;
+padding: 0;
+position: absolute;
+width: 290px;
+z-index: 10;
+}
+
+.info-item {
+clear: both;
+float: left;
+margin: 0;
+position: relative;
+width: 290px;
+}
+
+.info-item-content {
+background: #e0e0e0 url('/images/last/bg-paper.jpg');
+clear: both;
+float: left;
+padding: 0;
+position: relative;
+width: 290px;
+border: solid 1px #745c47;
+}
+
+.info-item-title {
+background: url('/images/last/header-info.gif') no-repeat;
+clear: both;
+float: left;
+width: 290px;
+height: 50px;
+margin: 10px 0px 10px 0px;
+position: relative;
+}
+
+.footer {
+background: url('/images/last/footer.gif') no-repeat;
+width: 921px;
+height: 523px;
+top: -290px;
+left: -60px;
+clear: both;
+float: left;
+margin: 0;
+position: relative;
+z-index: 1;
+}

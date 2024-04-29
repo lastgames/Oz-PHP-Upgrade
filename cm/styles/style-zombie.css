@@ -1,0 +1,371 @@
+a:link {color: #990000; text-decoration: none;}
+a:visited {color: #990000; text-decoration: none;}
+a:hover {color: #f07005;}
+a:active {}
+
+html { 
+  background: #000000 url('/images/zombie/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+height: 100%;
+overflow: auto;
+}
+
+body {
+font: 14px Arial, Helvetica, sans-serif;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+#form_text
+	{
+	border: solid 1px #990000;
+	width: 250px;
+	color: #990000; 
+	padding: 5px;
+	}
+
+#form_area
+	{
+	border: solid 1px #990000;
+	width: 500px; 
+	height: 200px;
+	color: #990000;
+	font-family: Arial;
+	padding: 5px;
+	}
+
+#form_submit
+	{
+	background: url('/images/zombie/icon-email.gif') no-repeat;
+	border: none;
+	padding: 2px 8px;
+	width: 100px; 
+	height: 63px;
+	cursor: pointer;
+	}
+
+.container {
+margin: 0px auto;
+position: relative;
+width: 800px;
+}
+
+.content {
+background: url('/images/zombie/bg-transparent.png') repeat-y left top;
+border: solid 1px #990000;
+clear: both;
+float: left;
+min-height: 600px;
+position: relative;
+width: 800px;
+padding-bottom: 100px;
+}
+
+.header {
+width: 800px;
+height: 150px;
+position: relative;
+}
+
+.head-space {
+     float: left;
+     height: 130px;
+     position: relative;
+     width: 300px;
+}
+
+.facebook {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 175px;
+position: relative;
+width: 50px;
+border: solid 0px #fff;
+}
+
+.calendar {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.login {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.register {
+float: left;
+height: 50px;
+margin: 40px 0px 0px 40px;
+position: relative;
+width: 50px;
+}
+
+.logo {
+width: 608px;
+height: 172px;
+position: absolute;
+left: -150px;
+top: 10px;
+z-index: 110;
+}
+
+.corner {
+background: url('/images/zombie/corner.png') no-repeat left top;
+width: 859px;
+height: 384px;
+position: absolute;
+left: -21px;
+top: 82px;
+z-index: 100;
+}
+
+.menu {
+background: url('/images/zombie/menu-bg.png') no-repeat left top;
+margin-top: 20px;
+padding-bottom: 100px;
+clear: both;
+float: left;
+position: absolute;
+width: 150px;
+z-index: 10;
+}
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.menu li {
+margin: 0;
+padding: 0;
+}
+
+.menu li a {
+background: transparent;
+color: #990000;
+border-bottom: solid 0px #990000;
+font: bold 20px "Times New Roman", Times, serif;
+
+text-decoration: none;
+padding-top: 10px;
+width: 150px;
+height: 35px;
+display: block;
+}
+
+.menu li a:hover {
+background: url('/images/menu.png') no-repeat left bottom;
+color: #f07005;
+border-bottom: solid 0px #f07005;
+text-decoration: none;
+padding-top: 10px;
+width: 150px;
+height: 35px;
+display: block;
+}
+
+.content-index {
+float: left;
+top: 20px;
+left: 150px;
+position: relative;
+width: 625px;
+border: solid 0px #ffffff;
+}
+
+.content-index-text {
+clear: both;
+float: left;
+padding: 20px 7px 0px 13px;
+position: relative;
+width: 600px;
+border: solid 0px #089b01;
+}
+
+.rotator {
+clear: both;
+float: left;
+height: 300px;
+position: relative;
+width: 800px;
+}
+
+.rotator-screen {
+background: url('/images/zombie/rotate-screen.png') no-repeat left top;
+width: 790px;
+height: 290px;
+position: absolute;
+right: 0px;
+top: 0px;
+z-index: 90;
+border-right: solid 5px #990000;
+border-top: solid 5px #990000;
+border: solid 5px #990000;
+border-left: solid 5px #990000;
+}
+
+.welcome {
+clear: both;
+float: left;
+padding: 0px 5px 0px 0px;
+margin-bottom: 20px;
+position: relative;
+width: 600px;
+border: solid 0px #089b01;
+}
+
+.welcome-title {
+background: url('/images/zombie/header-welcome.png') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 0px 0px 10px 0px;
+position: relative;
+width: 600px;
+}
+
+.news {
+clear: both;
+float: left;
+padding: 0px 5px 0px 0px;
+position: relative;
+width: 550px;
+z-index: 20;
+}
+
+.news-title {
+background: url('/images/zombie/header-news.png') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 10px 10px 10px 10px;
+position: relative;
+width: 550px;
+}
+
+.story-title {
+background: url('/images/zombie/header-story.png') no-repeat;
+clear: both;
+float: left;
+height: 50px;
+margin: 10px 10px 10px 10px;
+position: relative;
+width: 550px;
+}
+
+.news-item {
+clear: both;
+float: left;
+margin: 0px 0px 10px 0px;
+position: relative;
+width: 550px;
+}
+
+.news-item-body {
+	clear: both;
+	float: left;
+	padding: 0px 5px 0px 0px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-content {
+background: #ffffff url('/images/zombie/bg-paper.jpg');
+clear: both;
+float: left;
+padding: 5px 15px 0px 15px;
+position: relative;
+width: 550px;
+border: solid 1px #f07005;
+white-space: pre-line;
+}
+
+.news-item-link {
+	clear: both;
+	float: left;
+	padding: 2px 0px 10px 0px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-subtitle {
+	clear: both;
+	float: left;
+	font-size: 10px;
+	position: relative;
+	width: 550px;
+}
+
+.news-item-title {
+	clear: both;
+	color: #f07005;
+	float: left;
+	font-size: 18px;
+	position: relative;
+	width: 550px;
+}
+
+.info {
+float: right;
+right: 30px;
+margin-top: 182px;
+padding: 0;
+position: absolute;
+width: 550px;
+z-index: 10;
+}
+
+.info-item {
+clear: both;
+float: left;
+margin: 0;
+position: relative;
+width: 550px;
+}
+
+.info-item-content {
+background: #ffffff url('/images/zombie/bg-paper.jpg');
+clear: both;
+float: left;
+padding: 0;
+position: relative;
+width: 550px;
+border: solid 1px #089b01;
+white-space: pre-line;
+}
+
+.info-item-title {
+background: url('/images/zombie/header-info.png') no-repeat;
+clear: both;
+float: left;
+width: 550px;
+height: 50px;
+margin: 10px 0px 10px 0px;
+position: relative;
+}
+
+.footer {
+background: url('/images/zombie/footer.png') no-repeat;
+width: 852px;
+height: 490px;
+top: -350px;
+left: -22px;
+clear: both;
+float: left;
+margin: 0;
+position: relative;
+z-index: 1;
+}

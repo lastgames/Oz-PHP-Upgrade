@@ -8,7 +8,12 @@
 # Project Specific
 .env
 mysql-data/
-
+publicbios/
+*/publicbios/
+backgrounds/
+*/backgrounds/
+newspaper/
+*/newspaper/
 
 *.exe
 *.exe~

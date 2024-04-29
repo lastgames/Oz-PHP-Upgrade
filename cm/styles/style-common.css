@@ -1,0 +1,126 @@
+h1
+{
+margin:0;
+padding:0;
+}
+
+h2
+{
+margin:0;
+padding:0;
+display:inline;
+}
+
+h3
+{
+margin:0;
+padding:0;
+display:inline;
+}
+
+#who_photo{
+height: 150px;
+overflow: hidden;
+}
+
+#pp-box{
+position:fixed;
+top:200px;
+right:0px;
+width:150px;
+font-size: 0.9em;
+padding: 5px;
+background:#E0E0E0;
+border-radius: 10px 0px 0px 10px;
+border: 3px #000000 solid;
+box-shadow: 2px 3px 5px #888;
+}
+
+#error
+	{
+	width: 536px; 
+	background: #f0c2b8; 
+	padding: 5px;
+	border: solid 2px #bc4328;
+	font-weight: bold;
+	}
+
+#success
+	{
+	width: 536px; 
+	background: #b4dbb4; 
+	padding: 5px;
+	border: solid 2px #088A08;
+	font-weight: bold;
+	}
+
+#orange
+	{
+	display: inline;
+	color: #bc4328;
+	}
+
+#green
+	{
+	display: inline;
+	color: #088A08;
+	}
+
+#small
+	{
+	display: inline;
+	font-size: 0.8em;
+	}
+
+#listing
+	{
+	border-bottom: dotted 4px #dadada;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+
+#s3slider {
+    width: 400px; /* important to be same as image width */
+    height: 300px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+}
+ 
+#s3sliderContent {
+    width: 400px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 374px;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown
+                                at the bottom of the image
+    */
+}
+ 
+.clear {
+    clear: both;
+}
+

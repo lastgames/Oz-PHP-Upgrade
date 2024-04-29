@@ -10,7 +10,8 @@ networks:
 
 services:
   nginx:
-    image: nginx:alpine
+#    image: nginx:alpine
+    build: ./nginx/
     container_name: oz-nginx-cm
     restart: always
       #container_name: nginx-container
